@@ -1,0 +1,227 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    margin: auto;
+}
+div{
+    margin-top: 2px;
+    text-align: center;
+}
+.container{
+    width: auto;
+    padding: 10px;
+}
+.Header{
+    color: black;
+    height: 180px;
+}
+.navbar{
+    position: relative;
+    display: block;
+    width: 100%;
+    color: rgb(6, 117, 145);
+    height: auto; 
+    z-index: 10;
+}
+.navbar ul{
+    position: relative;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    list-style: none;
+}
+.navbar >ul::after{
+    display: block;
+    width: auto;
+    height: 0px;
+    clear: both;
+    contain: " ";
+}
+.navbar ul li{
+    position: relative;
+    display: block;
+    float: left;
+    width: auto;
+    height: auto;
+}
+.navbar ul li a{
+    display: block;
+    padding: 9px 25px 9px 25px;
+    font-size: 14px;
+    line-height: 1.3em;
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration: uppercase;
+    height: 30px;
+    box-sizing: border-box;
+    color: BLACK;
+}
+.navbar ul li ul{
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    display: none;
+    width: 200px;
+    background: rgb(16, 180, 192);
+}
+.navbar ul li:hover ul{
+    display: block;
+}
+.navbar ul li ul li{
+    float: none;
+    width: 100%;
+}
+.navbar ul li ul li a{
+    display: block;
+    text-transform: none;
+    height: auto;
+    padding: 7px 25px;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 1px solid rgb(0, 255, 242);
+    color: rgb(16, 211, 236);
+}
+.navbar ul li ul li:first-child a{
+    border-top: 0px;
+}
+.MainContentArea{
+    background-color: gold(7, 114, 16);
+    height: 400px;
+    border:5px solid black;
+    margin: 40px;
+}
+footer{
+    margin-top: 10px;
+    background-color: black;
+    height: 300px;
+    margin:30px;
+    color: black;
+}
+.logo{
+    float: left;
+}
+footer,Header{
+    background-color:rgb(0, 217, 255);
+}
+.footerColumns{
+    display: flex;
+}
+.footerColum{
+    flex:50%;
+    margin: 10px;
+}
+.navbarList{
+    display: INLINE-FLEX;
+    list-style: none;
+    padding: 20px;
+    ;
+    color:black ;
+}
+.wrapper{
+    height: 300px;
+}
+a{
+    text-decoration: none;
+}
+.navbarList:hover{
+    background-color: white;
+}
+.post{
+    display: flex;
+    background-color: rgb(9, 105, 112);
+    padding: 20px;
+    border-radius: 25px;
+}
+.post.img{
+    width: 100px;
+}
+.info{
+    text-align: left;
+}
+li{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    text-decoration: none;
+}
+.footerColumns{
+    position: relative;
+    display: block;
+    width: 100%;
+    color: rgb(6, 227, 243);
+    height: auto; 
+    z-index: 10;
+}
+.footerColumns ul{
+    position: relative;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    list-style: none;
+}
+.footerColumns >ul::after{
+    display: block;
+    width: auto;
+    height: 0px;
+    clear: both;
+    contain: " ";
+}
+.footerColumns ul li{
+    position: relative;
+    display: block;
+    float: left;
+    width: auto;
+    height: auto;
+}
+.footerColumns ul li a{
+    display: block;
+    padding: 9px 25px 9px 25px;
+    font-size: 14px;
+    line-height: 1.3em;
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration: uppercase;
+    height: 30px;
+    box-sizing: border-box;
+    color: BLACK;
+}
+.footerColumns ul li ul{
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    display: none;
+    width: 200px;
+    background: black;
+}
+.footerColumns ul li:hover ul{
+    display: block;
+}
+.footerColumns ul li ul li{
+    float: none;
+    width: 100%;
+}
+.footerColumns ul li ul li a{
+    display: block;
+    text-transform: none;
+    height: auto;
+    padding: 7px 25px;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 1px solid black;
+    color: black;
+}
+.footerColumns ul li ul li:first-child a{
+    border-top: 0px;
+}
+ul li:hover{
+    background-color:rgb(10, 99, 105) ;
+}
